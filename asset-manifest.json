@@ -1,15 +1,28 @@
 {
   "files": {
-    "main.css": "/bookify-main/static/css/main.7eebc124.css",
-    "main.js": "/bookify-main/static/js/main.a9118ef1.js",
+    "main.css": "/bookify-main/static/css/main.00728d20.css",
+    "main.js": "/bookify-main/static/js/main.7c8ba67a.js",
     "static/js/787.dced35c3.chunk.js": "/bookify-main/static/js/787.dced35c3.chunk.js",
+    "static/media/logo.png": "/bookify-main/static/media/logo.7ad03971f5ea512ee52e.png",
+    "static/media/book-trade.svg": "/bookify-main/static/media/book-trade.52c2e0ce7736c98177debf7be862be20.svg",
+    "static/media/down-left-guy.svg": "/bookify-main/static/media/down-left-guy.e3d5994cb21a25cc4a1ab5248efa267e.svg",
+    "static/media/middle-guy.svg": "/bookify-main/static/media/middle-guy.b5eef7a8722398b3002075c01f2fe283.svg",
+    "static/media/up-right-guy.svg": "/bookify-main/static/media/up-right-guy.c3fa0f82a007cc66ae2ea5ddd8c87678.svg",
+    "static/media/subject-covered.svg": "/bookify-main/static/media/subject-covered.03795e804f2c66ad4c777e6371e3de75.svg",
+    "static/media/our-story.svg": "/bookify-main/static/media/our-story.27bef06e1b452142bfeb6e4db0608a69.svg",
+    "static/media/money-saved.svg": "/bookify-main/static/media/money-saved.b2e37538d466b9561565c4073d202255.svg",
+    "static/media/up-left-guy.svg": "/bookify-main/static/media/up-left-guy.5d6b063ff56c6a2a136225398a176ce2.svg",
+    "static/media/down-right-guy.svg": "/bookify-main/static/media/down-right-guy.23e79416feae1492dc6c28003da72eec.svg",
+    "static/media/e26b3fcd-d941-472f-bc0c-0d97bd52b6d8.svg": "/bookify-main/static/media/e26b3fcd-d941-472f-bc0c-0d97bd52b6d8.ff28ec9e2011665bd538c08ac081822e.svg",
+    "static/media/c17a4c7c-e5de-4313-812d-224dec358447.svg": "/bookify-main/static/media/c17a4c7c-e5de-4313-812d-224dec358447.474dba1ba7f51eb90899d1a4b6633b1a.svg",
     "index.html": "/bookify-main/index.html",
-    "main.7eebc124.css.map": "/bookify-main/static/css/main.7eebc124.css.map",
-    "main.a9118ef1.js.map": "/bookify-main/static/js/main.a9118ef1.js.map",
+    "static/media/67e9efa1-f718-4cf3-ab03-4089c456bb23.svg": "/bookify-main/static/media/67e9efa1-f718-4cf3-ab03-4089c456bb23.819e7bf8315a95b14168d021e896b536.svg",
+    "main.00728d20.css.map": "/bookify-main/static/css/main.00728d20.css.map",
+    "main.7c8ba67a.js.map": "/bookify-main/static/js/main.7c8ba67a.js.map",
     "787.dced35c3.chunk.js.map": "/bookify-main/static/js/787.dced35c3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7eebc124.css",
-    "static/js/main.a9118ef1.js"
+    "static/css/main.00728d20.css",
+    "static/js/main.7c8ba67a.js"
   ]
 }
