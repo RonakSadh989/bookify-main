@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bookify-main/static/css/main.43ddf179.css",
-    "main.js": "/bookify-main/static/js/main.2c2a5d90.js",
+    "main.css": "/bookify-main/static/css/main.3bfcd1f6.css",
+    "main.js": "/bookify-main/static/js/main.10823344.js",
     "static/js/787.dced35c3.chunk.js": "/bookify-main/static/js/787.dced35c3.chunk.js",
     "static/media/logo.png": "/bookify-main/static/media/logo.7ad03971f5ea512ee52e.png",
     "static/media/book-trade.svg": "/bookify-main/static/media/book-trade.52c2e0ce7736c98177debf7be862be20.svg",
@@ -17,12 +17,12 @@
     "static/media/c17a4c7c-e5de-4313-812d-224dec358447.svg": "/bookify-main/static/media/c17a4c7c-e5de-4313-812d-224dec358447.474dba1ba7f51eb90899d1a4b6633b1a.svg",
     "index.html": "/bookify-main/index.html",
     "static/media/67e9efa1-f718-4cf3-ab03-4089c456bb23.svg": "/bookify-main/static/media/67e9efa1-f718-4cf3-ab03-4089c456bb23.819e7bf8315a95b14168d021e896b536.svg",
-    "main.43ddf179.css.map": "/bookify-main/static/css/main.43ddf179.css.map",
-    "main.2c2a5d90.js.map": "/bookify-main/static/js/main.2c2a5d90.js.map",
+    "main.3bfcd1f6.css.map": "/bookify-main/static/css/main.3bfcd1f6.css.map",
+    "main.10823344.js.map": "/bookify-main/static/js/main.10823344.js.map",
     "787.dced35c3.chunk.js.map": "/bookify-main/static/js/787.dced35c3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.43ddf179.css",
-    "static/js/main.2c2a5d90.js"
+    "static/css/main.3bfcd1f6.css",
+    "static/js/main.10823344.js"
   ]
 }
