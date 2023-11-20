@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Golos+Text:wght@400&display=swap");
+:root {
+  --orange: #ffbc42;
+  --dark-orange: #ffb428;
+  --violet: #8f2d56;
+  --black: #000000;
+  --light-grey: lightgray;
+  --text-font-bold: "Dela Gothic One", cursive;
+  --text-font: "Golos Text", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--text-font);
+  /* outline: solid lightgreen 1px; */
+  transition: all 600ms;
+}
+.home-main{
+  width: 100%;
+    background-color:white ;
+    min-height: 100vh;
+}
+.home-main h1{
+    font-family: var(--text-font-bold);
+    color: var(--dark-orange);
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 5vh;
+    margin-top: 2vh;
+}

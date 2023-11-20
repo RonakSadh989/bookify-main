@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Golos+Text:wght@400&display=swap");
+:root {
+  --orange: #ffbc42;
+  --dark-orange: #ffb428;
+  --violet: #8f2d56;
+  --black: #000000;
+  --light-grey: lightgray;
+  --text-font-bold: "Dela Gothic One", cursive;
+  --text-font: "Golos Text", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--text-font);
+  /* outline: solid lightgreen 1px; */
+  transition: all 600ms;
+}
+
+.login-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  min-height: 100vh;
+  background-color: white;
+}
+.login-left {
+  width: 100%;
+  padding: 3% 0 3% 15%;
+}
+.login-left > div:first-child {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6vh;
+}
+.login-left img {
+  height: 8vh;
+  border-radius: 50%;
+  margin-right: 2vw;
+}
+.login-left {
+  display: flex;
+  flex-direction: column;
+}
+.login-left h1 {
+  font-family: var(--text-font-bold);
+  color: var(--black);
+  font-size: 2em;
+}
+.login-left div:first-child h1 {
+  color: var(--orange);
+}
+.login-left h1 + p {
+  color: var(--light-grey);
+  font-size: 0.9em;
+}
+.login-left label {
+  color: var(--light-grey);
+  color: var(--black);
+  margin-bottom: 1vh;
+  font-weight: 600;
+  font-family: var(--text-font);
+}
+.login-left input {
+  height: 6vh;
+  width: 70%;
+  border: 1px solid var(--light-grey);
+  border-radius: 8px;
+  padding-left: 5%;
+  margin-bottom: 3vh;
+}
+.login-left br + p {
+  color: var(--dark-orange);
+  font-weight: 600;
+  text-align: right;
+  width: 70%;
+}
+.login-left button {
+  width: 70%;
+  height: 7vh;
+  border-radius: 8px;
+  border: 1px solid lightgray;
+  margin-bottom: 2vh;
+  font-weight: 600;
+  background-color: transparent;
+}
+.login-left button img {
+  height: 60%;
+  margin-right: 1vw;
+}
+.login-left .btn-in {
+  background-color: var(--dark-orange);
+  border: 0;
+}
+.login-left p span {
+  color: var(--dark-orange);
+}
+
+.login-left p:last-child {
+  width: 70%;
+  text-align: center;
+}
+
+.login-right {
+  background-color: var(--dark-orange);
+  position: relative;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+}
+.login-right p {
+  color: var(--violet);
+  font-family: var(--text-font-bold);
+  font-size: 4em;
+}
+.login-right img {
+  position: absolute;
+  height: 40%;
+}
+.login-right img:first-child {
+  left: 5%;
+}
+.login-right img:last-child {
+  right: 5%;
+  transform: rotateY(180deg);
+}
+
+@media screen and (max-width: 500px) {
+  .login-main {
+    padding-top: 2vh;
+    grid-template-columns: 1fr;
+  }
+  .login-left {
+    padding: 3% 10%;
+  }
+  .login-left img {
+    margin-right: 2vh;
+  }
+  .login-left input,
+  .login-left button,
+  .login-left br + p,
+  .login-left p:last-child {
+    width: 100%;
+  }
+  .login-left button img {
+    height: 40%;
+    margin-right: 1vh;
+  }
+  .login-right {
+    display: none;
+  }
+}

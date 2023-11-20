@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Golos+Text:wght@400&display=swap");
+:root {
+  --orange: #ffbc42;
+  --dark-orange: #ffb428;
+  --violet: #8f2d56;
+  --black: #000000;
+  --light-grey: lightgray;
+  --text-font-bold: "Dela Gothic One", cursive;
+  --text-font: "Golos Text", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--text-font);
+  /* outline: solid lightgreen 1px; */
+  transition: all 600ms;
+}
+
+.book {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 100vh;
+  width: 100%;
+  background-color: white;
+}
+.book > div:first-child {
+  padding: 5%;
+  display: grid;
+  place-items: center;
+}
+.book > div:first-child img {
+  height: 40vh;
+  border-radius: 8px;
+}
+.book > div:last-child {
+  padding: 5%;
+  margin: auto 0;
+}
+.book > div:last-child h2 {
+  font-family: var(--text-font-bold);
+}
+.book > div:last-child p {
+  font-weight: 600;
+}
+.book label {
+  font-weight: 600;
+  margin-right: 1vw;
+}
+.book input {
+  height: 6vh;
+  width: 70%;
+  border: 1px solid var(--light-grey);
+  border-radius: 8px;
+  padding-left: 5%;
+}
+.book > div:last-child button {
+  color: white;
+  background-color: var(--dark-orange);
+  margin-top: 5vh;
+  padding: 1vh 2vw;
+  width: 85%;
+  border: 0;
+  border-radius: 8px;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+}
+@media screen and (max-width: 500px) {
+  .book {
+    grid-template-columns: 1fr;
+  }
+
+  .book > div:last-child button {
+    width: 95%;
+  }
+}
